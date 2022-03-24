@@ -293,7 +293,7 @@ def timestamp_LOC(df, windowsize=50, return_oph=False):  # starttime, endtime,
         dloc.drop(dloc[(dloc['Oil counter oil consumption'] > 5)].index,
                   inplace=True)  # Filter very large LOC, e.g. when refilling over the oil counter. Value according to Edward Rogers and Dieter Chvatal
         dloc.drop(dloc[(dloc['Oil counter oil consumption'] < 0.005)].index,
-                  inplace=True)  # Filter very small LOC, according to Dieter Chavatal
+                  inplace=True)  # Filter very small LOC, according to Dieter Chvatal
 
         hoursum = 0
         volumesum = 0
