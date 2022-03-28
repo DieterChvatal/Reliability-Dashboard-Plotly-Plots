@@ -143,5 +143,7 @@ dmypy.json
 .xlsx
 .html
 
-utils/__pycache__/misc.cpython-38.pyc
-utils/__pycache__/my_plant_client.cpython-38.pyc
+utils/__pycache__
+utils/__pycache__/my_plant_client.cpython-39.pyc
+
+utils/__pycache__/my_plant_client.cpython-39.pyc
